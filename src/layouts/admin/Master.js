@@ -2,6 +2,9 @@ import React from 'react';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
+import "../../assets/admin/css/styles.css";
+import "../../assets/admin/js/scripts";
+import "../../assets/admin/js/scripts";
  
 const Master=()=>{
 
@@ -13,6 +16,9 @@ const Master=()=>{
                     <Sidebar/>
                     </div>
                     <div id="layoutSidenav_content">
+                        <main>
+                            Dashboard
+                        </main>
                     <Footer/>    
                     </div> 
             </div>
@@ -20,4 +26,4 @@ const Master=()=>{
     );
 } 
 
-export default Master();
+export default Master;
